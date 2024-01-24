@@ -1,0 +1,108 @@
+/* Estilo para centralizar a logo */
+#logo {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #8BC34A;
+}
+
+p{
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.link{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 45px;
+}
+
+a:hover{
+    color: #4CAF50;
+    text-transform:scale(1.1);
+    transition: 0.5s ease-in-out;
+    text-shadow: 1px 1px 1px #4CAF50;
+
+}
+
+#become-vet {
+    background-color: #f7f7f7;
+    padding: 60px 0;
+}
+
+#become-vet h2,
+#become-vet p {
+    text-align: center;
+    color: #333;
+}
+
+#vet-registration-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#vet-registration-form .form-group {
+    margin-bottom: 20px;
+}
+
+#vet-registration-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#vet-registration-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+#vet-registration-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+#vet-registration-form button:hover {
+    background-color: #8BC34A;
+}
+
+#vet-registration-success {
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+    color: #4CAF50;
+}
+
+#vet-registration-success p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}

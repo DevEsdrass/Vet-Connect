@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>VetConnect</title>
+</head>
+<body>
+
+    <header>
+        <div class="top">
+            <h1>Vet Connect</h1>
+            <p>Unindo Cuidado e Compaixão na Porta da sua Casa. Porque Seu Pet Merece o Melhor!</p>
+            <nav>
+                <ul>
+                    <li><a href="#banner">Início</a></li>
+                    <li><a href="#find-vet">Veterinários</a></li>
+                    <li><a href="#appointment">Agendamento</a></li>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="container">
+            <h1 id="text-banner">Conectando você ao cuidado perfeito</h1>
+            <p>Encontre veterinários excepcionais para atender seu animal de estimação em casa.</p>
+        </div>
+    </section>
+<section id="about">
+        <div class="container">
+            <h2>Sobre a Vet Connect</h2>
+            <p>Conectamos veterinários dedicados a cuidar do seu pet no conforto da sua casa. Nosso suporte abrange desde profissionais experientes até veterinários iniciantes.</p>
+        </div>
+    </section>
+    <section id="find-vet">
+        <div class="container">
+            <h2>Encontre um Veterinário Perto de Você</h2>
+            <div class="search-container">
+                <input type="text" id="search-vet" placeholder="Digite sua localização">
+                <button type="button" onclick="searchVets()">Buscar</button>
+            </div>
+            <a href="vet-cadastro.html"><div class="seja-um-parceiro"><button>Seja um Veterinário Parceiro</button></div></a>
+
+            <div class="featured-vets">
+                <div class="vet">
+                    <img src="img/vet1.png" alt="Veterinário 1">
+                    <h3>Dra. Clara Coelho</h3>
+                    <p>Clínica Veterinária Clara Coelho</p>
+                    <p>Pós-graduada em Clínica Médica e Cirúrgica de Pequenos Animais</p>
+                </div>
+                <div class="vet">
+                    <img src="img/vet3.png" alt="Veterinário 2">
+                    <h3>Dra. Maria Santos</h3>
+                    <p>Hospital Veterinário AnimalCare</p>
+                </div>
+                <div class="vet">
+                    <img src="img/vet2.png" alt="Veterinário 3">
+                    <h3>Dr. Carlos Oliveira</h3>
+                    <p>Clínica AnimalFeliz</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="appointment">
+        <div class="container">
+            <h2>Agende uma Consulta</h2>
+            <form id="appointment-form" action="javascript:void(0);" onsubmit="sendWhatsAppMessage()">
+                <div class="form-group">
+                    <label for="tutor-name">Nome do tutor:</label>
+                    <input type="text" id="tutor-name" name="tutor-name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="pet-name">Nome do Animal de Estimação:</label>
+                    <input type="text" id="pet-name" name="pet-name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="appointment-date">Data da Consulta:</label>
+                    <input type="date" id="appointment-date" name="appointment-date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="appointment-time">Horário da Consulta:</label>
+                    <input type="time" id="appointment-time" name="appointment-time" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="special-instructions">Motivo da consulta:</label>
+                    <textarea id="special-instructions" name="special-instructions" rows="4"></textarea>
+                </div>
+
+                <button type="submit">Agendar Consulta</button>
+            </form>
+        </div>
+    </section>
+
+    
+
+    
+
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">Termos de Serviço</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+            <!-- Links para redes sociais e informações de contato aqui -->
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

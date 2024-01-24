@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>VetConnect</title>
+</head>
+<section id="become-vet">
+    <img id="logo" src="img/vet connect.png" width="200px" height="200px" alt="">
+    <div class="container">
+        <h2>Seja um Veterinário Parceiro</h2>
+        <p>Junte-se à VetConnect e atenda os pets no conforto de seus lares. Preencha o formulário abaixo para se cadastrar:</p>
+        <form id="vet-registration-form" action="javascript:void(0);" onsubmit="sendWhatsAppMessage()">
+            <div class="form-group">
+                <label for="vet-name">Nome Completo:</label>
+                <input type="text" id="vet-name" name="vet-name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="cidade">Cidade:</label>
+                <input type="cidade" id="cidade" name="cidade" placeholder="Sua cidade" required>
+            </div>
+
+            <div class="form-group">
+                <label for="vet-crmv">CRMV (Conselho Regional de Medicina Veterinária):</label>
+                <input type="text" id="vet-crmv" name="vet-crmv" required>
+            </div>
+
+            <div class="form-group">
+                <label for="vet-graduation-year">Ano de Formação:</label>
+                <input type="number" id="vet-graduation-year" name="vet-graduation-year" required>
+            </div>
+
+            <div class="form-group">
+                <label for="vet-specialty">Especialidade:</label>
+                <input type="text" id="vet-specialty" name="vet-specialty">
+            </div>
+
+            <button type="submit">Enviar Cadastro</button>
+        </form>
+    </div>
+    <div class="link"><a href="index.html">Página Inicial</a></div>
+</section>
+<footer>
+    <div class="container">
+        <ul>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Termos de Serviço</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+    </div>
+</footer>
+
+<script src="cadastro.js"></script>
+</body>
+</html>

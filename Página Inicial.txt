@@ -1,0 +1,83 @@
+**Página Inicial:**
+
+1. **Banner Principal:**
+   - Imagem atraente de um veterinário atendendo a um animal de estimação em casa.
+   - Slogan destacando a conveniência e o cuidado personalizado da VetConnect.
+
+2. **Barra de Navegação:**
+   - Páginas principais: Início, Veterinários, Agendamento, Sobre Nós, Contato.
+   - Botões de acesso rápido: Cadastre-se (para veterinários) e Faça Login.
+
+3. **Seção de Destaque: "Encontre um Veterinário Perto de Você":**
+   - Caixa de pesquisa com filtro por especialidade, localização e disponibilidade.
+   - Exibição de veterinários destacados e suas avaliações.
+
+4. **Sobre a VetConnect:**
+   - Breve descrição da missão da plataforma.
+   - Destaque para o suporte oferecido a veterinários iniciantes.
+
+5. **Como Funciona:**
+   - Infográfico ou lista explicativa do processo de agendamento, pagamento e consulta.
+   - Chamada para ação (CTA) convidando os usuários a agendar uma consulta.
+
+6. **Depoimentos de Clientes:**
+   - Feedback positivo de proprietários de animais de estimação e veterinários.
+   - Fotos e nomes reais para autenticidade.
+
+7. **Seção de Veterinários em Destaque:**
+   - Perfil de alguns veterinários destacados na plataforma.
+   - Breve biografia, especialidades e avaliações.
+
+8. **Benefícios para Veterinários Iniciantes:**
+   - Descrição do programa de suporte oferecido.
+   - Testemunhos de veterinários iniciantes que se beneficiaram do programa.
+
+9. **Como se Tornar um Veterinário na VetConnect:**
+   - Informações sobre o processo de inscrição.
+   - Destaque para os benefícios, incluindo suporte, fornecimento de medicamentos e comissões.
+
+10. **Blog:**
+    - Artigos relacionados a cuidados com animais de estimação, dicas veterinárias e histórias de sucesso.
+    - CTA para inscrição na newsletter.
+
+11. **Rodapé:**
+    - Links rápidos para políticas de privacidade, termos de serviço e FAQ.
+    - Links para redes sociais e informações de contato.
+
+**Página de Cadastro para Veterinários:**
+
+1. **Formulário de Inscrição:**
+   - Campos para informações pessoais, credenciais profissionais e experiência.
+   - Opção para fazer upload de certificados e fotos.
+
+2. **Descrição do Programa de Suporte:**
+   - Detalhes sobre o treinamento, mentoria e benefícios oferecidos.
+   - Esclarecimento sobre o fornecimento de medicamentos e insumos.
+
+3. **Termos e Condições:**
+   - Caixa de seleção para concordar com os termos e condições da plataforma.
+
+4. **Botão de Envio de Inscrição:**
+   - CTA para enviar a inscrição para análise.
+
+**Página de Agendamento:**
+
+1. **Calendário de Disponibilidade:**
+   - Interface amigável para selecionar a data e hora da consulta.
+   - Opção para filtrar por localização e especialidade.
+
+2. **Perfil do Veterinário:**
+   - Informações detalhadas sobre o veterinário selecionado.
+   - Botão para agendar a consulta.
+
+3. **Detalhes da Consulta:**
+   - Campos para informações sobre o animal de estimação, motivo da consulta e quaisquer instruções específicas.
+
+4. **Sistema de Pagamento:**
+   - Opções seguras de pagamento online.
+   - Resumo dos custos antes da confirmação.
+
+5. **Confirmação da Consulta:**
+   - Mensagem de confirmação com detalhes da consulta e informações de contato do veterinário.
+
+A construção destas páginas proporcionará uma experiência completa e intuitiva aos usuários da VetConnect, conectando proprietários de animais de estimação a veterinários confiáveis que oferecem atendimento domiciliar.
